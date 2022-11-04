@@ -38,6 +38,7 @@ nav {
   flex-direction: row;
   padding:20px;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -60,4 +61,86 @@ nav {
 }
 .card--result {
   align-self: center;
+}
+
+.card--table{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  margin:20px;
+  box-shadow: 7.5px 7.5px 7.5px 7.5px rgba(0,0,0,0.1);
+}
+
+.card--attendence{
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+  height: 100px;
+  border-radius: 15px;
+  padding: 20px;
+  margin:20px;
+  box-shadow: 7.5px 7.5px 7.5px 7.5px rgba(0,0,0,0.1);
+}
+
+.attendence--img{
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.attendence--name{
+  align-self: center;
+}
+
+.table {
+  display: flex;
+  align-content: center;
+  height: 75vh;
+  overflow: auto;
+  border: none;
+}
+
+th {
+  text-align: left;
+  background-color: rgb(22, 87, 136);
+  color: white;
+  height: 150%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(209, 213, 219);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(249, 250, 251);
+}
+
+tr {
+  table-layout: fixed;
+}
+td {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+}
+
+.language-col {
+  text-align: center;
+}
+
+.year-col {
+  text-align: center;
 }
