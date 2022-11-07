@@ -104,56 +104,6 @@ nav {
 }
 
 
-.table {
-  display: flex;
-  align-content: center;
-  height: 75vh;
-  overflow: auto;
-  border: none;
-}
-
-th {
-  text-align: left;
-  background-color: rgb(22, 87, 136);
-  color: white;
-  height: 150%;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-tr:nth-child(odd) {
-  background-color: rgb(209, 213, 219);
-}
-
-tr:nth-child(even) {
-  background-color: rgb(249, 250, 251);
-}
-
-tr {
-  table-layout: fixed;
-}
-td {
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-thead {
-  position: sticky;
-  top: 0;
-}
-
-.language-col {
-  text-align: center;
-}
-
-.year-col {
-  text-align: center;
-}
-
 .card--news{
   display: flex;
   flex-direction: column;

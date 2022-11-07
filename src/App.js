@@ -2,8 +2,8 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import './index.css';
 import CardContainer from './components/projectCard/cardContainer';
-import DateTime from './components/dateTime/dateTime';
 import Attendances from './components/attendence/attendencesList';
+import DateTime from './components/dateTime/dateTime';
 import NewsList from './components/news/newsList';
 import KitchenDuty from './components/kitchenduty/kitchenDuty';
 import { BasicTable } from './components/taskboard/taskBoardTable';
