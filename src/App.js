@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import './index.css';
-import CardContainer from './components/cardContainer';
-import DateTime from './components/dateTime';
-import TaskBoard from './components/taskboard';
-import Attendances from './components/attendences';
+import CardContainer from './components/projectCard/cardContainer';
+import DateTime from './components/dateTime/dateTime';
+import Attendances from './components/attendence/attendencesList';
+import NewsList from './components/news/newsList';
+import KitchenDuty from './components/kitchenduty/kitchenDuty';
+import { BasicTable } from './components/taskboard/taskBoardTable';
+import { DeliveryTable } from './components/delivery/DeliveryTable';
 
 export default function App() {
   return (
@@ -13,8 +16,12 @@ export default function App() {
       <div className='card--container'>
         <CardContainer />
         <DateTime />
-        <TaskBoard />
-        <TaskBoard />
+        <BasicTable />
+        <DeliveryTable />
+        <NewsList />
+        <KitchenDuty />
+      </div>
+      <div className='card--container'>
         <Attendances />
       </div>
     </div>

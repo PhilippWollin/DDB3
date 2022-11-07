@@ -8,6 +8,7 @@ export default function CardContainer() {
             <Card />
             <Card />
             <Card />
+            <Card />
         </div>
     )
 };

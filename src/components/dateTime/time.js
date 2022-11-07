@@ -12,4 +12,10 @@ function Clock() {
     return <div className='nav--clock'>{clockState}</div>;
 }
 
-export default Clock;
+export default function Time() {
+    return (
+        <div className="card">
+            <Clock />
+        </div>
+    )
+};

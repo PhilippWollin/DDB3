@@ -1,5 +1,5 @@
 import React from 'react'
-import rocket from "../Img/rocket.webp"
+import rocket from "../../Img/rocket.webp"
 
 export default function Card() {
     return (
