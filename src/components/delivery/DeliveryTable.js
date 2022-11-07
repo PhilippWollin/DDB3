@@ -22,7 +22,7 @@ export const DeliveryTable = () => {
         <div className='card--table'>
             <span className="card--result">aktuelle Liefertermine</span>
             <div class="table">
-                <table {...getTableProps()}>
+                <table cellspacing="0" cellpadding="0" {...getTableProps()}>
                     <thead> {headerGroups.map((headerGroup) => (
 
                         <tr {...headerGroup.getHeaderGroupProps()}>

@@ -1,0 +1,23 @@
+
+.news--sender--img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 15px;
+  }
+  
+  .news--sender{
+    align-self: center;
+  }
+  
+  
+  .news--card{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 100px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 7.5px 7.5px 7.5px 7.5px rgba(24, 21, 196, 0.1);
+    align-items: center;
+  }

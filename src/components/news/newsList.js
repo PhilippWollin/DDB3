@@ -7,6 +7,7 @@ export default function NewsList() {
         <div className='card--news'>
             <News />
             <News />
+            <News />
         </div >
     )
 };
